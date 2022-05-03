@@ -40,7 +40,7 @@ sudo usermod -aG docker $USER && newgrp docker
 ```
 Summary in one img of Install Docker in WSL 2
 
-![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img1.png)
+![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img/img1.png)
 
 ### 2. Install Minikube prerequisites
 
@@ -59,7 +59,7 @@ git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
 cd ubuntu-wsl2-systemd-script/
 bash ubuntu-wsl2-systemd-script.sh
 ```
-![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img2.png)
+![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img/img2.png)
 image of Installing systemctl for installing Minikube with WSL 2
 
   - ### Install Conntrack
@@ -67,7 +67,7 @@ image of Installing systemctl for installing Minikube with WSL 2
  ```jsx
  sudo apt install -y conntrack
 ```
-![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img3.png)
+![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img/img3.png)
 
 ### 3. Install Minikube
 
@@ -89,13 +89,13 @@ sudo mv ./minikube /usr/local/bin/
  ```jsx
 minikube config set driver docker
 ```
-![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img4.png)
+![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img/img4.png)
 
 ### 4. Install Minikube
  ```jsx
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 ```
-![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img5.png)
+![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img/img5.png)
 
 Installing kubectl for use with Minikube
 
@@ -104,7 +104,7 @@ Installing kubectl for use with Minikube
  ```jsx
 kubectl config use-context minikube
 ```
-![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img6.png)
+![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img/img6.png)
 
 ### 5. Install Helm to work with Minikube
 
@@ -115,7 +115,7 @@ curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get > get_
 chmod 700 get_helm.sh 
 ./get_helm.sh
 ```
-![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img7.png)
+![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img/img7.png)
 
 Installing helm and initializing the helm installation
 
@@ -131,4 +131,4 @@ minikube start
  ```jsx
 kubectl get nodes -o wide
 ```
-![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img8.png)
+![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img/img8.png)
