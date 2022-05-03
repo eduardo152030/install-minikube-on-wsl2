@@ -9,11 +9,6 @@ __About Helm__
 
 Helm is a package manager for Kubernetes. It makes updates and rollback of applications more efficient and improves team collaboration.
 
-
-__Assumption:__
-
-<ins>You already have set up set up wls2 windows</ins>
-
 steps for the implementation
 
 1. Install Docker in WSL 2
