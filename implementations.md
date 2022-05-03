@@ -118,7 +118,7 @@ curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get > get_
 chmod 700 get_helm.sh 
 ./get_helm.sh
 ```
-![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img/img7.png)
+![Example](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/img/img7-.png)
 
 Installing helm and initializing the helm installation
 
