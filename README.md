@@ -23,4 +23,4 @@ steps for the implementation
 5. Install Helm
 6. Start the Minikube Kubernetes cluster
 
-Please go to  [Implementation section](https://pages.github.com/).
+Please go to  [Implementation section](https://github.com/eduardo152030/install-minikube-on-wsl2/blob/main/implementations.md).
