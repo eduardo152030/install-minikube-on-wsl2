@@ -1,3 +1,6 @@
+__Assumption:__
+
+<ins>You already have set up *wls2 windows*</ins>
 
 ### 1. Install Docker in WSL 2
 
