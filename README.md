@@ -22,3 +22,5 @@ steps for the implementation
 4. Install kubectl and set context to Minikube
 5. Install Helm
 6. Start the Minikube Kubernetes cluster
+
+Please go to  [Implementation section](https://pages.github.com/).
